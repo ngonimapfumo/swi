@@ -40,8 +40,14 @@ class ViewController: UIViewController {
     
     
     
-    class MyCell:UICollectionView{
+    class MyCell:UICollectionViewCell{
         weak var textLabel:UILabel!
+        
+        override init(frame: CGRect) {
+            super.init(frame: <#T##CGRect#>)
+        }
+        
+        
     }
     
 }
